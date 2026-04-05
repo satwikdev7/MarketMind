@@ -11,21 +11,6 @@ MarketMind is an autonomous multi-agent competitive intelligence system built wi
 - Persists reports, schedules, run history, and graph checkpoints in SQLite
 - Exposes manual report generation and recurring schedule management through Streamlit
 
-## Implemented So Far
-
-The project currently includes:
-
-- Phase 0: environment setup and API smoke tests
-- Phase 1: project foundation, config, schemas, database, utilities
-- Phase 2: vertical registry with 11 industry configurations
-- Phase 3: live search, RSS ingestion, scraping, and search orchestration
-- Phase 4: RAG chunking, embeddings, Chroma persistence, and retrieval
-- Phase 5: Groq client, prompt layer, JSON repair, and structured parsing
-- Phase 6: isolated LangGraph agent nodes
-- Phase 7: checkpointed LangGraph orchestration with retry/resume behavior
-- Phase 8: Streamlit MVP for manual report generation
-- Phase 9: APScheduler-based recurring report scheduling and run history
-
 ## Architecture
 
 ```text
