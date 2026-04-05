@@ -10,6 +10,8 @@ MarketMind is an autonomous multi-agent competitive intelligence system built wi
 - Generates structured competitive landscape reports with Groq-hosted LLaMA 3 models
 - Persists reports, schedules, run history, and graph checkpoints in SQLite
 - Exposes manual report generation and recurring schedule management through Streamlit
+<img width="1503" height="806" alt="Screenshot 2026-04-05 at 16 11 05" src="https://github.com/user-attachments/assets/be30c348-f822-4703-b4d2-91aa36753907" />
+
 
 ## Architecture
 
