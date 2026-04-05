@@ -1,0 +1,35 @@
+# Agent Framework
+langgraph>=0.2.0
+langchain-groq>=0.2.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+langgraph-checkpoint-sqlite>=1.0.0
+
+# LLM & Embeddings
+sentence-transformers>=3.0.0
+
+# Data Collection
+tavily-python>=0.4.0
+ddgs>=9.12.1
+feedparser>=6.0.0
+httpx>=0.27.0
+beautifulsoup4>=4.12.0
+
+# RAG
+chromadb>=0.5.0
+
+# Data Validation
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Scheduler
+APScheduler>=3.10.0
+
+# Frontend
+streamlit>=1.38.0
+
+# Export
+reportlab>=4.0.0
+
+# Utilities
+python-dotenv>=1.0.0

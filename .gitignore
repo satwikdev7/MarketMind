@@ -1,0 +1,29 @@
+# Environment
+.env
+backend/.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+backend/venv/
+backend/.venv/
+
+# Data (generated at runtime)
+backend/data/chroma_db/
+backend/data/marketmind.db
+backend/data/langgraph_checkpoints.db
+backend/data/scheduler_jobs.db
+backend/data/eval_results/*.json
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+
+# Docker
+*.log
